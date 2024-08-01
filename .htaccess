@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+# php -- BEGIN cPanel-generated handler, do not edit
+# Este domínio herda o pacote “PHP”.
+# php -- END cPanel-generated handler, do not edit
